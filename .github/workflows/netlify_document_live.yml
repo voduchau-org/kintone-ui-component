@@ -1,15 +1,15 @@
 name: Netlify Document Production Environment
 
 on:
-  release:
-    types:
-      - released
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
 
 jobs:
   publishOnMasterRelease:
     name: Deploying on Netlify Document Production Environment
     runs-on: ubuntu-latest
-    if: github.event_name == 'release' && github.event.action == 'released'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
