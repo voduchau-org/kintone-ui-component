@@ -9,3 +9,5 @@ umd/
 .DS_Store
 build-storybook.log
 .vscode/
+# Local Netlify folder
+.netlify
