@@ -10,10 +10,10 @@ const siteConfig = {
   tagline: "Be a smart kintone developer",
   subTagline: "It will support your UI customization project.",
   // For Netlify hosting
-  url: "https://kintone-ui-component.netlify.app",
+  url: "https://fork-repo.netlify.app/",
   baseUrl: "/",
   projectName: "kintone-ui-component",
-  organizationName: "kintone-labs",
+  organizationName: "voduchau-org",
   headerLinks: [
     { doc: "getting-started/quick-start", label: "Documentation" },
     { doc: "releases/release-notes", label: "Releases" },
