@@ -7,7 +7,7 @@ original_id: date-picker
 
 ## Overview
 
-The DatePicker component allows the user to display a input area and date selection calendar.
+The DatePicker component allows the user to display a input area and date selection calendar. 123
 
 <div class="sample-container" id="date-picker">
   <div id="sample-container__components"></div>
