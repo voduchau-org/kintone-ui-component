@@ -27,4 +27,3 @@ jobs:
         run: npm i netlify-cli --no-save
       - name: Deploying on Netlify Production Environment
         run: netlify deploy --prod --site=d6b713a3-97ea-4e26-8f46-2b03242131b6 --debug
-        working-directory: ./
