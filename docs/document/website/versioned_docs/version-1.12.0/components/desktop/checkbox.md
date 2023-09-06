@@ -7,7 +7,7 @@ original_id: checkbox
 
 ## Overview
 
-The Checkbox component displays a checkbox element for multiple selections checkbox hahaha 123
+The Checkbox component displays a checkbox element for multiple selections checkbox hahaha 123 ok final
 
 <div class="sample-container" id="checkbox">
   <div id="sample-container__components"></div>
