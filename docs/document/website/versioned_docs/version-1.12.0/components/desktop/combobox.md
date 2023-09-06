@@ -7,7 +7,7 @@ original_id: combobox
 
 ## Overview
 
-The Combobox component allows the user to find an item among many choices.
+The Combobox component allows the user to find an item among many choices. 123
 
 <div class="sample-container" id="combobox">
   <div id="sample-container__components"></div>
