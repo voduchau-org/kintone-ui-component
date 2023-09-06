@@ -25,5 +25,7 @@ jobs:
         working-directory: docs/document/website
       - name: Install Netlify
         run: npm i netlify-cli --no-save
+      - name: Link Netlify Site
+        run: netlify link --name fork-repo --id ${{ secrets.NETLIFY_DOCUMENT_ID }}
       - name: Deploying on Netlify Production Environment
         run: netlify deploy --prod --dir=./docs/document/website/build/kintone-ui-component --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_DOCUMENT_ID }}
