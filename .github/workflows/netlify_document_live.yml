@@ -26,4 +26,4 @@ jobs:
       - name: Install Netlify
         run: npm i netlify-cli --no-save
       - name: Deploying on Netlify Production Environment
-        run: netlify deploy --prod --dir=./docs/document/website/build/kintone-ui-component --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=${{ secrets.NETLIFY_DOCUMENT_ID }}
+        run: netlify deploy --prod --dir=./docs/document/website/build/kintone-ui-component --site=${{ secrets.NETLIFY_DOCUMENT_ID }}
